@@ -74,7 +74,12 @@ header {
     right: 10px;
 }
 
-
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    #carousel {
+        max-width: 100%;
+    }
+}
 
 /* Tabla de contactos */
 #contact-table {
@@ -153,9 +158,3 @@ th {
     }
 }
 
-/* Media queries para responsividad */
-@media (max-width: 768px) {
-    #carousel {
-        max-width: 100%;
-    }
-}
