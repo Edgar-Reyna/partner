@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Responsive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <center>
+    <header>
+        <h1>Ricos Antojitos</h1>
+    </header>
+
+    <section id="banner">
+        <img src="./principal.jpeg" alt="Banner" >
+    </section>
+
+    <section id="carousel">
+        <div class="carousel-container">
+            <div class="carousel-item">
+                <img src="./pozolerojo.jpeg" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./pozoleverde.jpeg" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./menudo.jpeg" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="./tamales.jpeg" alt="Imagen 3">
+            </div>
+        </div>
+        <button id="prevBtn">Anterior</button>
+        <button id="nextBtn">Siguiente</button>
+    </section>
+    </center>
+
+    <section id="contact-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Telefono</th>
+                    <th>WhatsApp</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Berenice Rdz</td>
+                    <td>8661604091</td>
+                    <td><button class="whatsapp-btn" data-phone="8661604091"><i class="fab fa-whatsapp"></i> Enviar</button></td>
+                </tr>
+                <tr>
+                    <td>Jocabed Rdz</td>
+                    <td>8661010918</td>
+                    <td><button class="whatsapp-btn" data-phone="8661010918"><i class="fab fa-whatsapp"></i> Enviar</button></td>
+                </tr>
+                <tr>
+                    <td>Julia Rdz</td>
+                    <td>8661334608</td>
+                    <td><button class="whatsapp-btn" data-phone="8661334608"><i class="fab fa-whatsapp"></i> Enviar</button></td>
+                </tr>
+                <tr>
+                    <td>David Flores</td>
+                    <td>8666305623</td>
+                    <td><button class="whatsapp-btn" data-phone="8666305623"><i class="fab fa-whatsapp"></i> Enviar</button></td>
+                </tr>
+                <tr>
+                    <td>Edgar Reyna</td>
+                    <td>8666507268</td>
+                    <td><button class="whatsapp-btn" data-phone="8666507268"><i class="fab fa-whatsapp"></i> Enviar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
